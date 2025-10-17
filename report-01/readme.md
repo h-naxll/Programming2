@@ -319,7 +319,7 @@ for n in Ns:
 |空欄|適切なコードに書き換えてください|
 |-|-|
 |D|```  ('n')  ```|
-|E|```  ('空欄E')  ```|
+|E|```  ('n')  ```|
 |F|```  ('空欄F')  ```|
 
 ```python
@@ -415,7 +415,7 @@ class Queue:
       pass  #  []
    
    def enqueue(self,data):
-      pass  #  ←　コードを設計して，書き換える
+      pass  #  self.items.append(data)
 
    def dequeue(self):
       pass  #  ←　コードを設計して，書き換える
@@ -450,5 +450,4 @@ class Queue:
 - 実装した `Queue` クラスと `Stack` クラスのみ使用できます
 - それ以外，リストや配列などの追加のデータ構造は使用できません
 ---
-
 
